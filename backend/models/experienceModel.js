@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 const experienceSchema = mongoose.Schema({
-  logo: String,
   organization: String,
   title: String,
   position: String,

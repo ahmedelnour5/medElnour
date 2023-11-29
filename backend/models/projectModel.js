@@ -7,7 +7,7 @@ const projectSchema = mongoose.Schema({
   dates: String,
   technologies: [String],
   projectLink: String,
-  description: String,
+  description: [String],
 });
 
 const Project = mongoose.model("Project", projectSchema);
