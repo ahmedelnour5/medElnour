@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div className="w-full mx-auto">
       <div className="container flex justify-between mx-auto p-5 items-center">
-        <span className="text-2xl font-medium">medElnour</span>
+        <Link to={"/"} className="hover:cursor-pointer">
+          <span className="text-2xl font-medium">medElnour</span>
+        </Link>
         <nav>
           <Link
             className="mx-4 hover:border-b-2 border-white"
