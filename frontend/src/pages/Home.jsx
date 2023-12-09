@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen w-full space-y-9">
       <h1 className="text-5xl md:text-7xl font-semibold">Ahmed Elnour</h1>
-      <h2 className="text-3xl md:text-4xl">Full-Stack Developer</h2>
+      <h2 className="text-xl md:text-2xl font-medium">Full-Stack Developer</h2>
       <ul className="flex items-center">
         <LinkIcon
           to="https://github.com/ahmedelnour5"

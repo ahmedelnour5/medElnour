@@ -14,7 +14,7 @@ const Experience = () => {
     getExperiences();
   }, []);
   return (
-    <div className="container mx-auto min-h-screen mt-4 pt-2">
+    <div className="container mx-auto min-h-screen mt-4 py-8">
       <div className="space-y-7 flex flex-col justify-center items-center">
         {experiences && experiences !== null
           ? experiences.map((experience) => (
